@@ -1,0 +1,85 @@
+﻿<!Doctype html>
+<html>
+<head>
+    <title>Guitar Center - Main Page - Chintan</title>
+    <link rel="stylesheet" href="Guitar_main.css">
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+</head>
+
+<body>
+    <div id="main_window">
+        <audio controls autoplay>
+            <source src="DCH_Guitar.mp3" type="audio/mpeg">
+        </audio>
+
+            <h1 id="color">Guitar Center - Bajaake Dekho !!</h1>      <!--Heading-->
+
+            <div id="nav_bar">
+                <!--Navigation Bar & Menu-->
+                <div class="dropdown">
+                    <button>Guitars</button>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Electric Guitars</a></li>
+                        <li><a href="#">Acoustic Guitars</a></li>
+                        <li><a href="#">Acoustic - Electric Guitars</a></li>
+                        <li><a href="#">Classical Guitars</a></li>
+                    </ul>
+                </div>
+                <button>Bass</button>
+                <button>Drums</button>
+                <button>Keyboards</button>
+                <button>DJ & Lightings</button>
+                <button>Used Gears</button>
+                <button>Clearance</button>
+            </div>
+
+            <div id="main_image">
+                <!--Main Sale Image-->
+                <img id="image" src="main.jpg" alt="Main Image" />
+            </div>
+
+            <div id="next-previous">
+                <!--Next & Previous Buttons-->
+                <button onclick="previous()">Previous</button>
+                <button onclick="next()">Next</button>
+            </div>
+
+            <div class="three_section">
+                <!--Product Info-->
+                <button class="accordion">Product Information &#x25BE;</button>
+                <div id="product" class="panel">
+                    <p></p>
+                </div>
+            </div>
+
+            <div class="three_section">
+                <!--Shipping Info-->
+                <button class="accordion">Shipping Information &#x25BE;</button>
+                <div id="shipping" class="panel">
+                    <p></p>
+                </div>
+            </div>
+
+            <div class="three_section">
+                <!--Customer Reviews-->
+                <button class="accordion">Customer Reviews &#x25BE;</button>
+                <div id="reviews" class="panel">
+                    <p></p>
+                </div>
+            </div>
+
+            <div class="cart">
+                <form action="Guitar_review.html">
+                    <input type="submit" value="Add to Cart !!">
+                </form>
+            </div>
+</div>
+
+    <script src="Guitar_main.js"></script>
+</body>
+</html>
